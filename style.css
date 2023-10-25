@@ -9,3 +9,13 @@ body {
     background-image: url("https://img.freepik.com/premium-photo/milky-way-galaxy-with-stars-space-background-universe_97458-839.jpg?size=626&ext=jpg") !important;
     background-size: cover;
 }
+
+.img-thumbnail {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+h3 {
+    text-align: center;
+}

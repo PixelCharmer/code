@@ -1,101 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galactic Whispers</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/vapor/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galactic Whispers</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/vapor/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-light" data-bs-theme="light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Galactic Whispers</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home
-                  <span class="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Community</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-sm-2" type="search" placeholder="Search">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-sm bg-light" data-bs-theme="light">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Galactic Whispers</h1>
-            <div class="alert alert-dismissible alert-warning">
-              <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                <h4 class="alert-heading">Warning!</h4>
-                <p class="alienText">There has been a Sighting!</p>
-            </div>
+      <a class="navbar-brand" href="#">Galactic Whispers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+        aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./community.html">Community</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Galactic Whispers</h1>
+        <div class="alert alert-dismissible alert-warning">
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          <h4 class="alert-heading">Warning!</h4>
+          <p class="alienText">There has been a Sighting!</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-20">
-          <div class="form-group">
-            <label for="exampleTextarea" class="form-label mt-3">Sighting Details</label>
-            <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Provide details of where you saw the earthing being"></textarea>
-            <input type="name" class="form-control" id="personPosting" aria-describedby="emailHelp" placeholder="Enter your name">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-20">
+        <div class="form-group">
+          <label for="exampleTextarea" class="form-label mt-3">Sighting Details</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"
+            placeholder="Provide details of where you saw the earthing being"></textarea>
+          <input type="name" class="form-control" id="personPosting" aria-describedby="emailHelp"
+            placeholder="Enter your name">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10">
+        <form>
+          <fieldset>
+            <legend>Earthling Sighting Log</legend>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Zephyrak</div>
+          <div class="card-body">
+            <h4 class="card-title">October 13, 2023 - Planet Jelloverse</h4>
+            <p class="card-text">It was a gloomy night, I was out in the middle of nowhere, gazing up at the stars and
+              hoping to catch a glimpse of something otherworldly. Just when I was about to give up and declare it
+              'National Disappointment Day,' a blinding light engulfed me. My heart raced as I braced for an impending
+              earthling abduction. But instead of little beings with ray guns, I found myself surrounded by a group of
+              particularly determined fireflies, seemingly on a mission to confuse stargazers. I couldn't help but
+              chuckle and think, "Well, I guess earthlings do come in all shapes and sizes!.</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-10">
-          <form>
-            <fieldset>
-              <legend>Earthling Sighting Log</legend>
-            </fieldset>
-          </form>
+      <div class="col">
+        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Xylophor</div>
+          <div class="card-body">
+            <h4 class="card-title">September 29, 2023 - Planet Fizzletopia</h4>
+            <p class="card-text">I'll never forget the night I saw an earthling - at least, that's what I thought it
+              was. I was camping in the middle of nowhere, just me and the stars, when a blinding light pierced the sky.
+              Heart pounding, I imagined I was about to become the protagonist of an epic sci-fi adventure. But as the
+              light descended, it revealed not a spaceship but a campervan decked out in neon lights, blasting disco
+              music. Turns out, I stumbled upon the party-loving aliens from the planet Groovion. They invited me in for
+              intergalactic cocktails and a dance-off, and I quickly realized that while their spaceships might be
+              rusty, their dance moves were out of this world!.</p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Zephyrak</div>
-            <div class="card-body">
-              <h4 class="card-title">October 13, 2023 - Planet Neptune</h4>
-              <p class="card-text">It was a gloomy night, I was out in the middle of nowhere, gazing up at the stars and hoping to catch a glimpse of something otherworldly. Just when I was about to give up and declare it 'National Disappointment Day,' a blinding light engulfed me. My heart raced as I braced for an impending earthling abduction. But instead of little beings with ray guns, I found myself surrounded by a group of particularly determined fireflies, seemingly on a mission to confuse stargazers. I couldn't help but chuckle and think, "Well, I guess earthlings do come in all shapes and sizes!.</p>
-            </div>
+      <div class="col">
+        <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Zog</div>
+          <div class="card-body">
+            <h4 class="card-title">September 2, 2023 - Planet Quirkylon</h4>
+            <p class="card-text">I was staring up at the night sky, hoping to spot an earthling spacecraft when I saw a
+              blinking light that seemed to be sending Morse code. I got excited, thinking it was a cosmic message, but
+              then I realized it was just a helicopter advertising a local pizzeria with a malfunctioning light. So, it
+              turns out the only thing out of this world was their pepperoni pizza.</p>
           </div>
         </div>
-        <div class="col">
-          <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Xylophor</div>
-            <div class="card-body">
-              <h4 class="card-title">September 29, 2023 - Planet Jupiter</h4>
-              <p class="card-text">I'll never forget the night I saw an earthling - at least, that's what I thought it was. I was camping in the middle of nowhere, just me and the stars, when a blinding light pierced the sky. Heart pounding, I imagined I was about to become the protagonist of an epic sci-fi adventure. But as the light descended, it revealed not a spaceship but a campervan decked out in neon lights, blasting disco music. Turns out, I stumbled upon the party-loving aliens from the planet Groovion. They invited me in for intergalactic cocktails and a dance-off, and I quickly realized that while their spaceships might be rusty, their dance moves were out of this world!.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Zog</div>
-            <div class="card-body">
-              <h4 class="card-title">September 2, 2023 - Planet Neptune</h4>
-              <p class="card-text">I was staring up at the night sky, hoping to spot an earthling spacecraft when I saw a blinking light that seemed to be sending Morse code. I got excited, thinking it was a cosmic message, but then I realized it was just a helicopter advertising a local pizzeria with a malfunctioning light. So, it turns out the only thing out of this world was their pepperoni pizza.</p>
-            </div>
-          </div>
-        </div>
-    
+      </div>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <footer>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="scroll-up">
+            <a href="index.html" class="back-to-top">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+      <script src="./node_modules/jquery/dist/jquery.js"></script>
 </body>
+
 </html>
